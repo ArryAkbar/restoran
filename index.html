@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Mini Resto</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="basic-jquery-slider.css">
+		<script src="jquery.js" type="text/javascript"></script>
+		<script src="basic-jquery-slider.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function(){
+				$('#slideshow').bjqs({
+					'width' : 720,
+					'height' : 238,
+					'showmarkers' : false,
+					'showcontrols' : true
+				});
+			});
+
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+					
+			<div id="header">
+				<h1 id="logo">Mini Resto</h1>
+				<nav>
+					<ul id="menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Daftar Menu</a></li>
+						<li><a href="aboutus.php">About Us</a></li>
+						<li><a href="login.php">Login</a></li>
+							
+					</ul>
+				</nav>
+				
+		</div> <!-- Div Penutup Header -->
+
+			<div id="slideshow">
+				<ul class="bjqs">
+					<li>
+						<img src="images/slide.jpg" alt="slide" />
+						<h1><a href="">Selamat Datang &amp; Selamat Menikmati</a></h1>
+					</li>
+					<li>
+						<img src="images/slide2.jpg" alt="slide" />
+						<h1><a href="">Selamat Datang &amp; Selamat Menikmati</a></h1>
+					</li>
+					<li>
+						<img src="images/slide3.jpg" alt="slide" />
+						<h1><a href="">Selamat Datang &amp; Selamat Menikmati</a></h1>
+					</li>
+				</ul>
+			</div>
+			 <!--  Div Penutup Slideshow  -->
+
+			<div id="langkah">
+				<h2>Cara Pemesanan Makanan di Resto Mini...</h2>
+				<div class="kolom">
+					<h3>Langkah ke-1</h3>
+					<p>Silahkan gunakan Smartphone yang sudah disediakan oleh pelayan, kemudian pilih daftar menu makanan di bagian kanan atas</p>
+				</div>
+				<div class="kolom">
+					<h3>Langkah ke-2</h3>
+					<p>Silahkan pilih makanan yang ada di daftar menu, kemudian klik pesan</p>
+				</div>
+				<div class="kolom">
+					<h3>Langkah ke-3</h3>
+					<p>Setelah melakukan klik pesan, kemudian isi data diri dan nomor meja tempat duduk anda. Mohon tunggu..!!</p>
+				</div>
+			</div> <!-- Div Penutup Langkah -->
+
+			<div id ="footer">
+				<p>&copy; copyright 2015 by arryakbar.com</p>
+				<ul id="footer-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Kontak</a></li>
+					<li><a href="aboutus.php">About Us</a></li>
+				</ul>
+			</div> <!-- Div Penutup Footer -->
+
+		</div> <!-- Div Penutup Wrapper -->
+	</body>
+</html>
